@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <div class="container">
+      <h1>Welcome to the Quiz!</h1>
+      <div class="question"></div>
+      <div class="buttons">
+        <div class="button2">
+          <button id="prevBtn" class="prevBtn" onclick="prevQuestion()">
+            Previous
+          </button>
+
+          <button id="nextBtn" class="nextBtn" onclick="nextQuestion()">
+            Next
+          </button>
+          <button id="submitBtn" class="nextBtn" onclick="submitQuiz()">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
