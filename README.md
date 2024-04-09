@@ -1,7 +1,8 @@
 # quiz-AltStack
 
 clone the repo
-open the root directory of in vscode
+open the root directory in vscode
+open the terminal and run the command `cd backend`
 
 ## Backend
 
@@ -12,6 +13,6 @@ run the command `nodemon index.js`
 ### Frontend
 
 download the live server extension in vscode
-click on the live server button on the buttom left corner of the screen
+click on the `Go Live` button on the buttom right corner of the screen
 
 this will start the server
